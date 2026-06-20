@@ -102,17 +102,17 @@
    "read_only": 1
   },
   {
- "fieldname": "workflow_state",
- "label": "Workflow State",
- "fieldtype": "Link",
- "options": "Workflow State",
- "read_only": 1
-}
+   "fieldname": "workflow_state",
+   "label": "Workflow State",
+   "fieldtype": "Link",
+   "options": "Workflow State",
+   "read_only": 1
+  }
  ],
  "links": [],
  "modified": "2026-06-20 18:02:00.000000",
  "modified_by": "Administrator",
- "module": "Zoom Integration",
+ "module": "zoom_integration",
  "name": "Zoom Meeting",
  "owner": "Administrator",
  "permissions": [
