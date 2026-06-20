@@ -1,0 +1,2 @@
+# Add any third-party python dependencies here (e.g., requests)
+requests>=2.25.1
