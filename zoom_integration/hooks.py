@@ -8,3 +8,10 @@ app_license = "MIT"
 # Hashes for asset caching
 app_include_js = []
 app_include_css = []
+
+fixtures = [
+    {
+        "dt": "Workflow",
+        "filters": [["name", "in", ["Zoom Meeting Approval Workflow"]]]
+    }
+]
