@@ -5,6 +5,6 @@ app_description = "Zoom Integration for Frappe"
 app_email = "sharif@gmail.com"
 app_license = "MIT"
 
-# DocType Layout Home
+# Hashes for asset caching
 app_include_js = []
 app_include_css = []
