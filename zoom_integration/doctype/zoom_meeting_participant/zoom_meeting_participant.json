@@ -24,7 +24,7 @@
  ],
  "modified": "2026-06-20 18:02:00.000000",
  "modified_by": "Administrator",
- "module": "Zoom Integration",
+ "module": "zoom_integration",
  "name": "Zoom Meeting Participant",
  "owner": "Administrator"
 }
