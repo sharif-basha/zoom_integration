@@ -1,4 +1,3 @@
-
 {
  "autoname": "naming_series:",
  "creation": "2026-06-20 18:00:00.000000",
@@ -65,12 +64,46 @@
    "fieldname": "zoom_status",
    "label": "Zoom Status",
    "fieldtype": "Select",
-   "options": "Pending\nStarted\nCompleted",
+   "options": "Pending\nCreated\nCancelled\nDeleted\nCompleted",
    "default": "Pending"
+  },
+  {
+   "fieldname": "section_break_invitation",
+   "fieldtype": "Section Break",
+   "label": "Invitation Details"
+  },
+  {
+   "fieldname": "invitation_text",
+   "label": "Invitation Text",
+   "fieldtype": "Long Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "employees",
+   "label": "Participants / Employees",
+   "fieldtype": "Table",
+   "options": "Zoom Meeting Participant"
+  },
+  {
+   "fieldname": "section_break_audit",
+   "fieldtype": "Section Break",
+   "label": "Audit Trail"
+  },
+  {
+   "fieldname": "deleted_on",
+   "label": "Deleted On",
+   "fieldtype": "Datetime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "deleted_by",
+   "label": "Deleted By",
+   "fieldtype": "Data",
+   "read_only": 1
   }
  ],
  "links": [],
- "modified": "2026-06-20 18:00:00.000000",
+ "modified": "2026-06-20 18:02:00.000000",
  "modified_by": "Administrator",
  "module": "Zoom Integration",
  "name": "Zoom Meeting",
